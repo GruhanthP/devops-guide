@@ -16,3 +16,12 @@ Install VScode - choco install vscode -y
 Install sublime text editor - choco install sublimetext3.app -y
 
 Install JDK - choco install corretto11jdk -y
+
+
+VM Prequisites
+1. Enable Virtualization in BIOS
+2. Disable other windows features (virtualization)
+    - Windows subsystem for linux
+    - Vitrual machine platform
+    - Windows hypervisor platform
+    - Docker desktop
