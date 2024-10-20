@@ -75,6 +75,10 @@ Once the box is initialized, a Vagrantfile is created in your directory. You can
 ```
 cat Vagrantfile
 ```
+You can edit the Vagrantfile using any text editor like vim:
+```
+vim Vagrantfile
+```
 Modify the Vagrantfile according to your requirements. For example:
 
 Increasing CPU & Memory:
@@ -93,10 +97,7 @@ ruby
 config.vm.network "private_network", ip: "192.168.33.10"
 config.vm.network "public_network"
 ```
-You can edit the Vagrantfile using any text editor like vim:
-```
-vim Vagrantfile
-```
+
 Step 3: Spin Up and Manage the VM
 Now that everything is set up in the Vagrantfile, you can start the VM using Vagrant. Below are the key commands to manage the VM:
 
