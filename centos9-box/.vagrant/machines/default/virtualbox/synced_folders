@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/Users/gruha/project-1/devops-guide/centos9-box","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
